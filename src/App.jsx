@@ -14,13 +14,12 @@ function App() {
   })
   return (
     <>
-      <Header/>
+      <div className="body-container">
+              <Header/>
       <div className="container">
         {destinations}
       </div>
-      
-      {/* </>
-      </> */}
+      </div>
     </>
   )
 }
