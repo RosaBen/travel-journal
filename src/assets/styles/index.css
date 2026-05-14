@@ -12,6 +12,13 @@ body {
   width: 100%;
   max-width: 550px;
   margin: 0 auto;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 470px;
+  margin: 2rem auto;
 }
 
 header {
@@ -29,5 +36,60 @@ header img {
 
 h1 {
   color: white;
+  font-size: 1rem;
+}
+
+/* Entry card */
+
+.card {
+  height: 168px;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  color: #2b283a;
+}
+
+.scenery-img {
+  width: 125px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.localisation {
+  order: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.localisation h3,
+.localisation a,
+.dates,
+.description p {
+  font-size: 0.7rem;
+}
+
+.localisation a {
+  color: #918e9b;
+}
+.description h2 {
+  order: 2;
   font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dates {
+  order: 3;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.description p {
+  order: 4;
+  line-height: 1.5;
 }
