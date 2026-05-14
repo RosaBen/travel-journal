@@ -8,6 +8,7 @@ function App() {
   const destinations = data.map(destination =>{
     return(
       <Entry 
+        key ={destination.id}
         props={destination}
       />
     )
