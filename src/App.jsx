@@ -5,11 +5,18 @@ import {data} from "./assets/scripts/data"
 
 function App() {
 
+  const destinations = data.map(destination =>{
+    return(
+      <Entry 
+        props={destination}
+      />
+    )
+  })
   return (
     <>
       <Header/>
       <div className="container">
-        <Entry props={data[0]}/>
+        {destinations}
       </div>
       
       {/* </>
