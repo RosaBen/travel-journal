@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Entry from "./components/Entry"
+import Footer from "./components/Footer"
 
 import {data} from "./assets/scripts/data"
 
@@ -20,6 +21,7 @@ function App() {
       <div className="container">
         {destinations}
       </div>
+      <Footer/>
       </div>
     </>
   )
