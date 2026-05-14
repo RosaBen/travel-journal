@@ -51,6 +51,10 @@ h1 {
 
 .scenery-img {
   width: 125px;
+  height: 168px;
+  border-radius: 1rem;
+  /* overflow: hidden;
+  flex-shrink: 0; */
 }
 
 .description {
